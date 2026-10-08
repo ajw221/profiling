@@ -14,7 +14,7 @@ rust-version = "1.85.0"
 
 [dependencies]
 quote = { version = "1.0", default-features = false }
-syn = { version = "2.0", features = ["full"] }
+syn = { version = "3", features = ["full"] }
 
 [lib]
 proc-macro=true
